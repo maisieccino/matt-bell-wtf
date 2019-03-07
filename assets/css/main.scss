@@ -1,0 +1,60 @@
+---
+---
+
+@import "colors";
+
+@font-face {
+  font-family: "ApM";
+  src: url("/assets/fonts/AMono.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Ap";
+  src: url("/assets/fonts/A.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Ap";
+  src: url("/assets/fonts/ALight.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Ap";
+  src: url("/assets/fonts/ABold.otf");
+  font-weight: 700;
+}
+
+$font-heading: "Ap";
+
+* {
+  font-family: "ApM";
+}
+
+h1,
+h2,
+h3,
+strong {
+  font-weight: bold;
+}
+
+body {
+  background-color: $color-white;
+  color: $color-black;
+}
+
+.project {
+  background-color: $color-cyan;
+  color: $color-white;
+  display: block;
+  width: 300px;
+  padding: 0;
+
+  h3 {
+    font-size: 48px;
+    margin: -10px 0 -5px -3px;
+    line-height: 38px;
+  }
+}
