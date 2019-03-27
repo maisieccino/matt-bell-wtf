@@ -6,9 +6,13 @@ layout: home
 title: ""
 ---
 
-# Matt Bell
+[about](/about) [contact](/contact) [blog](/blog) [work](/work)
+
+# matt bell
 
 I'm building platforms at State Street Corporation.
+
+## past and present work
 
 <div class="project">
 <h3>UCL Assistant</h3>

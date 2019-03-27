@@ -46,7 +46,7 @@ body {
 }
 
 .project {
-  background-color: $color-cyan;
+  background: linear-gradient(-45deg, $color-blue 10%, $color-cyan 60%);
   color: $color-white;
   display: block;
   width: 300px;
@@ -54,8 +54,9 @@ body {
   margin: 10px 0;
 
   h3 {
+    text-transform: lowercase;
     font-size: 48px;
-    margin: -10px 0 -5px -13px;
+    margin: -10px 0 -5px -15px;
     display: inline-block;
     line-height: 35px;
     letter-spacing: -2px;
