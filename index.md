@@ -8,9 +8,20 @@ title: ""
 
 # Matt Bell
 
-I'm building platforms at State Street.
+I'm building platforms at State Street Corporation.
 
 <div class="project">
 <h3>UCL Assistant</h3>
 <p>An app to support student life at UCL.</p>
 </div>
+
+<div class="project">
+<h3>Haul</h3>
+<p>A tool to manage your personal data, schedule and thoughts.</p>
+</div>
+
+Contact
+
+[Twitter: @mbellgb](https://twitter.com/mbellgb)
+
+[GitHub: @mbellgb](https://github.com/mbellgb)
