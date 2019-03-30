@@ -43,22 +43,25 @@ strong {
 body {
   background-color: $color-white;
   color: $color-black;
-}
 
-.project {
-  background: linear-gradient(-45deg, $color-blue 10%, $color-cyan 60%);
-  color: $color-white;
-  display: block;
-  width: 300px;
-  padding: 10px;
-  margin: 10px 0;
-
-  h3 {
-    text-transform: lowercase;
-    font-size: 48px;
-    margin: -10px 0 -5px -15px;
-    display: inline-block;
-    line-height: 35px;
-    letter-spacing: -2px;
+  a {
+    color: $color-black;
+    &:hover {
+      background-color: $color-black;
+      color: $color-white;
+    }
+    &:focus {
+      border: 0.2em solid $color-yellow;
+      outline: none;
+      box-sizing: border-box;
+    }
   }
 }
+
+nav {
+  a {
+    text-transform: lowercase;
+  }
+}
+
+@import "card";

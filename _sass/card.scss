@@ -1,0 +1,25 @@
+.card {
+  background: linear-gradient(-45deg, $color-blue 10%, $color-cyan 60%);
+  color: $color-white;
+  display: block;
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+
+  h3 {
+    text-transform: lowercase;
+    font-size: 48px;
+    margin: -10px 0 -5px -15px;
+    display: inline-block;
+    line-height: 35px;
+    letter-spacing: -2px;
+  }
+
+  a {
+    color: $color-white;
+    &:hover {
+      color: $color-black;
+      background-color: $color-white;
+    }
+  }
+}

@@ -4,25 +4,21 @@
 
 layout: home
 title: ""
+navigation: true
 ---
-
-[about](/about) [contact](/contact) [blog](/blog) [work](/work)
 
 # matt bell
 
 I'm building platforms at State Street Corporation.
 
+This site is still a bit work in progress, so bear with for a little bit.
+
 ## past and present work
 
-<div class="project">
-<h3>UCL Assistant</h3>
-<p>An app to support student life at UCL.</p>
-</div>
-
-<div class="project">
-<h3>Haul</h3>
-<p>A tool to manage your personal data, schedule and thoughts.</p>
-</div>
+{% assign projects = site.projects | sort: "date", "first" | reverse %}
+{% for p in projects limit: 4%}
+{% include project.html p=p %}
+{% endfor %}
 
 Contact
 

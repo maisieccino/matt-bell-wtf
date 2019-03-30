@@ -9,6 +9,11 @@ url: "https://matt.bell.wtf"
 twitter_username: mbellgb
 github_username: mbellgb
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
 # Build settings
 timezone: Europe/London
 markdown: kramdown
@@ -17,6 +22,13 @@ plugins:
   - jemoji
   - jekyll-redirect-from
   - jekyll-mentions
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
 
 # exclude:
 #   - Gemfile
