@@ -1,17 +1,17 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 title: ""
 navigation: true
 ---
 
-# matt bell
+# matt bell 🔔
 
 I'm building platforms at State Street Corporation.
 
-This site is still a bit work in progress, so bear with for a little bit.
+I also like the colour cyan.
+
+This site is still a bit work in progress, so bear with for a little bit. 🔜
+In the meantime, why not check out my [existing website](https://mbell.me)?
 
 ## past and present work
 
@@ -20,8 +20,4 @@ This site is still a bit work in progress, so bear with for a little bit.
 {% include project.html p=p %}
 {% endfor %}
 
-Contact
-
-[Twitter: @mbellgb](https://twitter.com/mbellgb)
-
-[GitHub: @mbellgb](https://github.com/mbellgb)
+[View all](/projects)
