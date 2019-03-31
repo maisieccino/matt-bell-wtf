@@ -1,0 +1,68 @@
+---
+---
+
+@import "colors";
+
+@font-face {
+  font-family: "ApM";
+  src: url("/assets/fonts/AMono.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Ap";
+  src: url("/assets/fonts/A.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Ap";
+  src: url("/assets/fonts/ALight.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Ap";
+  src: url("/assets/fonts/ABold.otf");
+  font-weight: 700;
+}
+
+$font-heading: "Ap";
+
+* {
+  font-family: "ApM";
+}
+
+h1,
+h2,
+h3,
+strong {
+  font-weight: bold;
+}
+
+body {
+  background-color: $color-white;
+  color: $color-black;
+  max-width: 1024px;
+
+  a {
+    color: $color-black;
+    &:hover {
+      background-color: $color-black;
+      color: $color-white;
+    }
+    &:focus {
+      border: 0.2em solid $color-yellow;
+      outline: none;
+      box-sizing: border-box;
+    }
+  }
+}
+
+nav {
+  a {
+    text-transform: lowercase;
+  }
+}
+
+@import "card";

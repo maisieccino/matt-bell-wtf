@@ -1,0 +1,22 @@
+{% assign pages = site.pages %}
+{% for redirect in site.redirects %}
+    {% assign pages = pages | push: redirect %}
+{% endfor %}
+
+{% assign sorted_pages = pages | where: "navigation",true | sort: "order" %}
+<nav>
+{% if page.url == "/" %}
+    <a href="{{site.baseurl}}/">Home</a> //
+{% else %}
+    <a href="{{site.baseurl}}/">Matt Bell</a> //
+{% endif %}
+{% for p in sorted_pages %}
+    {% if p.title %}
+        {% if page.url == p.url %}
+            <a class="current" href="{{ p.url | replace:'index.html','' | prepend: site.baseurl }}">{{ p.title }}</a>
+        {% else %}
+            <a href="{{ p.url | replace:'index.html','' | prepend: site.baseurl }}">{{ p.title | to_lower }}</a>
+        {% endif %}
+    {% endif %}
+{% endfor %}
+</nav>

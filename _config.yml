@@ -1,0 +1,43 @@
+title: Matt Bell
+email: matt@bell.wtf
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://matt.bell.wtf"
+twitter_username: mbellgb
+github_username: mbellgb
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  redirects:
+    output: true
+    permalink: /:path/
+
+# Build settings
+timezone: Europe/London
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-mentions
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
