@@ -6,7 +6,8 @@ navigation: true
 
 # matt bell 🔔
 
-I'm building platforms at State Street Corporation.
+I'm a full stack developer at Limejump, improving renewable access to the
+energy market.
 
 I also like the colour cyan.
 
